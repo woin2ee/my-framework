@@ -7,9 +7,11 @@
 
 import Foundation
 
-public struct GreetingGenerator {
+open class GreetingGenerator {
     
-    public static func generate() -> String {
+    public init() {}
+    
+    open func generate() -> String {
         return "안녕하세요~"
     }
 }
