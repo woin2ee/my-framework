@@ -10,6 +10,6 @@ import Foundation
 public struct GreetingGenerator {
     
     public static func generate() -> String {
-        return "Hello~"
+        return "안녕하세요~"
     }
 }
